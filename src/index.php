@@ -5,8 +5,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 $request= Request::createFromGlobals();
 $response= new Response();
-//$response->setContent($request->getPathInfo());
-//$response->send();
 
 switch ($request->getPathInfo()) {
     case '/front-controller/page1.php':
